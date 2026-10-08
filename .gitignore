@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local environments and dependencies
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+frontend/dist/
+
+# Source data excluded from the public repository
+data/
+data.zip
+*.db
+*.sqlite
+*.sqlite3
+frontend/public/media/
+
+# Local tooling and OS files
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
